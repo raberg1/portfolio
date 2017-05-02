@@ -1,0 +1,117 @@
+<html>
+  <head>
+      <title>CHSUL</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Chicago HS Ultimate League</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="scheduleLink mdl-navigation__link" href="#">Schedule</a>
+            <a class="fieldMapLink mdl-navigation__link" href="#">Field Map</a>
+            <a class="standingsLink mdl-navigation__link" href="#">Standings</a>
+            <a class="coachesContactLink mdl-navigation__link" href="#">Coaches Contact</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">CHSUL</span>
+        <a href="http://www.illinoisyouthultimate.org"><img src="images/iyu.jpg"></a>
+        <nav class="mdl-navigation">
+          <a class="scheduleLink mdl-navigation__link drawer" href="#">Schedule</a>
+          <a class="fieldMapLink mdl-navigation__link drawer" href="#">Field Map</a>
+          <a class="standingsLink mdl-navigation__link drawer" href="#">Standings</a>
+          <a class="coachesContactLink mdl-navigation__link drawer" href="#">Coaches Contact</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          
+          <!-- Schedule -->
+          <div id="schedule" class="screen">
+            <h3 class="center">Schedule</h3> 
+            <hr>
+          </div>
+          
+          <!-- Field Map -->
+          <div id="fieldMap" class="screen">
+            <h3 class="center">Field Map</h3> 
+            <hr>
+            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GrfEjj2Gcn0NZ_riPS19wWWpeNc" width="640" height="480"></iframe>          </div>
+
+          <!-- Standings -->
+          <div id="standings" class="screen">
+            <h3 class="center">Standings</h3> 
+            <hr>
+          </div>
+
+          <!-- Coaches Contact -->
+          <div id="coachesContact" class="screen">
+            <h3 class="center">Coaches Contact</h3> 
+            <hr>
+          </div>
+          
+        </div>
+      </main>
+    </div>
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <script>
+      $(function() {
+        
+        $("#schedule").show();
+        
+        $(".scheduleLink").on("click",function(){
+          $(".screen").hide();
+          
+          $("#schedule").show();
+        })
+        
+        $(".fieldMapLink").on("click",function(){
+          $(".screen").hide();
+          
+          $("#fieldMap").show();
+        })
+        
+        $(".standingsLink").on("click",function(){
+          $(".screen").hide();
+          
+          $("#standings").show();
+        })
+        
+        $(".coachesContactLink").on("click",function(){
+          $(".screen").hide();
+          
+          $("#coachesContact").show();
+        })
+        
+        $('.drawer').click(function() {
+    
+          //  the drawer
+          $('.mdl-layout__drawer').toggleClass('is-visible');
+    
+          // the transparent overlay that shows when you open the drawer
+          $('.mdl-layout__obfuscator').toggleClass('is-visible');
+    
+        });
+      })
+    </script>
+  </body>
+</html>

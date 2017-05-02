@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+    margin: auto auto;
+}
+
+.page-content{
+    padding: 15px;
+}
+
+.screen{
+    display: none;
+}
+
+.red{
+    color: red;
+}
+
+td {
+    width: 20px;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}

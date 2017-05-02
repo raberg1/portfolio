@@ -1,0 +1,283 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-red.min.css" />    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      
+      <!-- Viewport for responsive design -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="../css/style.css">
+  
+  </head>
+  
+  <body>
+    <!-- The drawer is always open in large screens. The header is always shown,
+      even in small screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+                mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                      mdl-textfield--floating-label mdl-textfield--align-right">
+            <label class="mdl-button mdl-js-button mdl-button--icon"
+                   for="fixed-header-drawer-exp">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" name="sample"
+                     id="fixed-header-drawer-exp">
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title"><img src="images/iyu.jpg" width="35%">State Tourney</span>
+        <nav class="mdl-navigation">
+          <a id="tourneyDetails" class="mdl-navigation__link" href="#">Tournament Details</a>
+          <a id="schedule" class="mdl-navigation__link" href="#">Schedule</a>
+          <a id="fieldMap" class="mdl-navigation__link" href="#">Field Map</a>
+          <a id="scoreReporting" class="mdl-navigation__link" href="#">Score Reporting</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+        
+            <!-- Tournament Details -->
+            <div id="tourneyDetailsContent" class="screen">
+                <h3>Illinois High School / Middle School State Championship</h3>
+                
+                <hr>
+                <p><strong>Location:</strong> <a href="https://goo.gl/maps/Wek2U4fJD1F2">Inwood Soccer Complex</a>
+                <br>
+                Big parking lot off Mission Blvd. in Joliet, Illinois</p>
+                <p><strong>Field Map</strong>: Use the <a id="fieldMap" class="internalLink" href="#">Field Map</a> page</p>
+                <p><strong>USAU Rostering and Waivers</strong>: <span class="red"><em>High school teams</em></span>, your teams MUST be rostered by Monday, May 15th. <span class="red"><em>Middle school teams</em></span>, you must have a complete set of waivers for your team all filled out and ready to show at check-in.</p>
+                <p><strong>Coaches / Captains Meeting</strong>:</p>
+                <p><strong>Trainers</strong>: There will be trainers at the fields for the entirety of the event.  Come by tournament central for any treatment.</p>
+                <p><strong>Spirit</strong>: Each division will have a spirit champion.  All teams will rate each other at the conclusion of each game as apart of the score reporting.  The team with the overall highest spirit score will receive the spirit award at the conclusion of the tournament.</p>
+                <p>We will be using the <a href="images/1-game-sotg-scoring-sheet-2014-en.pdf">WFDF spirit sheets</a>, which will be apart of score reporting.</p>
+                <p><strong>Gameplay</strong>: </p>
+                <table class="mdl-data-table mdl-shadow--2dp">
+                    <tr>
+                        <th>Division</th>
+                        <th>Play To</th>
+                        <th>Point Cap</th>
+                        <th>Hard Cap</th>
+                        <th>Timeouts</th>
+                    </tr>
+                    <tr>
+                        <td>High School Pool Play</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>75 minutes</td>
+                        <td>2 per half</td>
+                    </tr>
+                    <tr>
+                        <td>High School Bracket Play</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>75 minutes</td>
+                        <td>2 per half</td>
+                    </tr>
+                    <tr>
+                        <td>Middle School Pool Play</td>
+                        <td>11</td>
+                        <td>13</td>
+                        <td>60 minutes</td>
+                        <td>1 / half + 1 floater</td>
+                    </tr>
+                    <tr>
+                        <td>Middle School Bracket Play</td>
+                        <td>11</td>
+                        <td>13</td>
+                        <td>75 minutes</td>
+                        <td>1 / half + 1 floater</td>
+                    </tr>
+                </table>
+                <p><strong>Timeouts</strong>:  You may use timeouts in overtime.</p>
+                <p><strong>Gear For Sale</strong>: High School State Championship gear and jerseys will be available for purchase at tournament central.</p>
+                <p><strong>Concessions</strong>: Naperville Central will be selling snacks, water, and gatorade.</p>
+                <p><strong>Parking</strong>: There is a large amount of parking on site.  If you park on the street, then you will be ticketed.</p>
+                <p><strong>Inclement Weather</strong>: There will be updates on this page for any inclement weahter.  If play is stopped due to lightning you should seek cover in cars.  If lightning strikes then we will halt play for 30 minutes after the most recent lightning strike.</p>
+                <p><strong>Hospital</strong>: The nearest hospital is <a href="https://goo.gl/maps/wkn6B7cBfuP2">Presence Saint Joseph's Medical Center</a></p>
+            </div>
+        
+            <!-- Schedule -->
+            <div id="scheduleContent" class="screen">
+                <h3>Schedule</h3>
+                <hr>
+                <div class="pool" id="hsOpenAPools">
+                    <h4 class="center">High School Open A</h4>
+                    <hr>
+                    <div class="poolDisplay" id="hsOpenAPoolsData"></div>
+                   
+                </div>
+                <div class="pool" id="hsOpenBPools">
+                    <h4 class="center">High School Open B</h4>
+                    <hr>
+                     <div class="poolDisplay" id="hsOpenBPoolsData"></div>
+                </div>
+                <div class="pool" id="msOpenAPools">
+                    <h4 class="center">Middle School Open A</h4>
+                    <hr>
+                    <div class="poolDisplay" id="msOpenAPoolsData"></div> 
+                </div>
+                <div class="pool" id="msOpenBPools">
+                    <h4 class="center">Middle School Open B</h4>
+                    <hr>
+                    <div class="poolDisplay" id="msOpenBPoolsData"></div> 
+                </div>
+                <div class="pool" id="hsGirlsPools">
+                    <h4 class="center">High School Girls</h4>
+                    <hr>
+                    <div class="poolDisplay" id="hsGirlsPoolsData"></div> 
+                </div>
+            </div>
+            
+            <!-- Field Map -->
+            <div id="fieldMapContent" class="screen">
+                <h3>Field Map</h3>
+                <hr>
+                <object width="400" height="400" data="images/neuqua-knockout-field-map-2017.pdf">
+</object>
+            </div>
+            
+            <!-- Score Reporting -->
+            <div id="scoreReportingContent" class="screen">
+                <h3>Score Reporting</h3>
+                <hr>
+            </div>
+        
+        </div>
+      </main>
+    </div>
+    
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    
+    <!-- Links to each screen -->
+    <script>
+        $('.mdl-navigation__link').click(function() {
+    
+            //  the drawer
+            $('.mdl-layout__drawer').toggleClass('is-visible');
+    
+            // the transparent overlay that shows when you open the drawer
+            $('.mdl-layout__obfuscator').toggleClass('is-visible');
+            
+            $(".screen").hide();
+            
+            $("#" + $(this).attr("id") + "Content").show();
+            
+        });
+        
+        $('.internalLink').click(function(){
+            $(".screen").hide();
+            
+            $("#" + $(this).attr("id") + "Content").show();
+            
+        })
+    </script>
+    
+    <script>
+        $(function(){
+          $("#tourneyDetailsContent").show();  
+        })
+    </script>
+    
+    <!-- Create the tables on the schedule page -->
+    <script>
+        $(function(){
+          $(".pool").on("click", function(){
+            $(".poolDisplay").hide();
+            var poolName = $(this).attr("id");
+            
+            displayPool(poolName)
+            $("#"+ poolName + "Data").show();
+          })
+        })
+        
+        function displayPool(name){
+            for(var pool = 1; pool <= 4; pool++){
+                var count = 1;
+                var letter = "";
+                if(pool==1){ letter = "A"}
+                else if(pool==2){letter="B"}
+                else if(pool==3){letter="C"}
+                else{letter="D"}
+                var tab = '<table border="1" class="mdl-data-table mdl-js-data-table"><thead><tr><th class="center mdl-data-table__cell--non-numeric" colspan="12">Pool ' + letter + '</th></tr></thead><tbody>';
+                for(var i=1;i<=5;i++){
+                    tab += '<tr><td colspan = "1" class="mdl-data-table__cell--non-numeric">' + letter + i +'</td><td id="' + letter + i + '" class="mdl-data-table__cell--non-numeric" colspan="8">Team '+ letter + i + '</td><td class="mdl-data-table__cell--non-numeric" colspan="2" id="' + letter + i + 'Record">Record</td><td class="mdl-data-table__cell--non-numeric">Rank</td></tr>'
+                }
+                tab += '<tr><td colspan="2" class="mdl-data-table__cell--non-numeric">SAT</td><td class="mdl-data-table__cell--non-numeric">FLD</td><td colspan="2" class="mdl-data-table__cell--non-numeric">GAME</td><td colspan="2" class="mdl-data-table__cell--non-numeric">SCORE</td><td class="mdl-data-table__cell--non-numeric">FLD</td><td colspan="2" class="mdl-data-table__cell--non-numeric">GAME</td><td colspan="2" class="mdl-data-table__cell--non-numeric">SCORE</td></tr>'
+                
+                var time = new Date();
+                time.setHours(9,0,0,0);
+                
+                
+                for(var i=1; i<=5; i++){
+                    
+                    tab += '<tr><td colspan="2" class="mdl-data-table__cell--non-numeric">';
+                    
+                    tab += time.getHours() + ':'; 
+                    if(time.getMinutes()==0){
+                        tab += "00";
+                    }else{
+                        tab += time.getMinutes();
+                    }
+                    tab += '-'; 
+                    
+                    time.setMinutes(time.getMinutes() + 75);
+                    
+                    if(time.getHours() > 12){
+                        time.setHours(time.getHours() - 12);
+                    }
+                    
+                    tab += time.getHours() + ':' + time.getMinutes();
+                    tab += '</td><td class="mdl-data-table__cell--non-numeric" id="'+ letter + count + 'field"></td><td colspan="2" class="mdl-data-table__cell--non-numeric" id="' + letter + count + 'game">' + letter + '1 v ' + letter + '5</td><td colspan="2" class="center mdl-data-table__cell--non-numeric" id="'+ letter + count + 'result';
+                    count++;
+                    tab += '">-</td><td class="mdl-data-table__cell--non-numeric" id="'+ letter + count + 'field"></td><td colspan="2" class="mdl-data-table__cell--non-numeric" id="' + letter + count + 'game">' + letter + '2 v ' + letter + '4</td><td colspan="2" class="center mdl-data-table__cell--non-numeric id="'+ letter + count + 'result';
+                    count++;
+                    tab += '">-</td></tr>'
+                    time.setMinutes(time.getMinutes() + 15);
+                }            
+                tab += '<br>';
+                $("#" + name + "Data").append(tab);
+            }
+            
+            inputData();
+        }  
+        
+    </script>
+    <!-- Include Dexie -->
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+    <script>
+        function inputData(){
+            
+            $.getJSON("JSON/teams.json",function(data){
+                console.log(data);
+                $.each(data, function(i,v){
+                    $("#" + v.poolplacement).html(v.name);
+                    $("#" + v.poolplacement + "Record").html(v.poolplaywins + " - " + v.poolplaylosses);
+                })
+            })
+            
+            $.getJSON("JSON/games.json",function(data){
+                console.log(data);
+                $.each(data, function(i,v){
+                    $("#" + v.gameid + "game").html(v.matchup1 + " v " + v.matchup2);
+                    $("#" + v.gameid + "field").html(v.field);
+                })
+            })
+            
+        
+        }
+          
+          
+    </script>
+  </body>
+</html>

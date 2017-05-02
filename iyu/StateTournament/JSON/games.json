@@ -1,0 +1,322 @@
+[
+    {
+        "gameid": "A1",
+        "matchup1": "A1",
+        "matchup2": "A5",
+        "team1": "Neuqua Valley High School",
+        "team2": "Highland Park High School",
+        "field": 1
+    },
+    {
+        "gameid": "A2",
+        "matchup1": "A2",
+        "matchup2": "A4",
+        "team1": "Intrinsic Schools",
+        "team2": "St. Charles East High School",
+        "field": 2
+    },
+    {
+        "gameid": "A3",
+        "matchup1": "A1",
+        "matchup2": "A4",
+        "team1": "Neuqua Valley High School",
+        "team2": "St. Charles East High School",
+        "field": 1
+    },
+    {
+        "gameid": "A4",
+        "matchup1": "A3",
+        "matchup2": "A5",
+        "team1": "Noble Pritzker College Prep",
+        "team2": "Highland Park High School",
+        "field": 2
+    },
+    {
+        "gameid": "A5",
+        "matchup1": "A1",
+        "matchup2": "A3",
+        "team1": "Neuqua Valley High School",
+        "team2": "Noble Pritzker College Prep",
+        "field": 1
+    },
+    {
+        "gameid": "A6",
+        "matchup1": "A2",
+        "matchup2": "A5",
+        "team1": "Intrinsic Schools",
+        "team2": "Highland Park High School",
+        "field": 2
+    },
+    {
+        "gameid": "A7",
+        "matchup1": "A1",
+        "matchup2": "A2",
+        "team1": "Neuqua Valley High School",
+        "team2": "Intrinsic Schools",
+        "field": 1
+    },
+    {
+        "gameid": "A8",
+        "matchup1": "A3",
+        "matchup2": "A4",
+        "team1": "Noble Pritzker College Prep",
+        "team2": "St. Charles East High School",
+        "field": 2
+    },
+    {
+        "gameid": "A9",
+        "matchup1": "A2",
+        "matchup2": "A3",
+        "team1": "Intrinsic Schools",
+        "team2": "Noble Pritzker College Prep",
+        "field": 1
+    },
+    {
+        "gameid": "A10",
+        "matchup1": "A4",
+        "matchup2": "A5",
+        "team1": "St. Charles East High School",
+        "team2": "Highland Park High School",
+        "field": 2
+    },
+    {
+        "gameid": "B1",
+        "matchup1": "B1",
+        "matchup2": "B5",
+        "team1": "Geneva High School",
+        "team2": "Lane Tech",
+        "field": 3
+    },
+    {
+        "gameid": "B2",
+        "matchup1": "B2",
+        "matchup2": "B4",
+        "team1": "Neuqua Valley High School",
+        "team2": "Elmhurst Evolution",
+        "field": 4
+    },
+    {
+        "gameid": "B3",
+        "matchup1": "B1",
+        "matchup2": "B4",
+        "team1": "Geneva High School",
+        "team2": "Elmhurst Evolution",
+        "field": 3
+    },
+    {
+        "gameid": "B4",
+        "matchup1": "B3",
+        "matchup2": "B5",
+        "team1": "Evanston Township High School",
+        "team2": "Lane Tech",
+        "field": 4
+    },
+    {
+        "gameid": "B5",
+        "matchup1": "B1",
+        "matchup2": "B3",
+        "team1": "Geneva High School",
+        "team2": "Evanston Township High School",
+        "field": 3
+    },
+    {
+        "gameid": "B6",
+        "matchup1": "B2",
+        "matchup2": "B5",
+        "team1": "Neuqua Valley High School",
+        "team2": "Lane Tech",
+        "field": 4
+    },
+    {
+        "gameid": "B7",
+        "matchup1": "B1",
+        "matchup2": "B2",
+        "team1": "Geneva High School",
+        "team2": "Neuqua Valley High School",
+        "field": 3
+    },
+    {
+        "gameid": "B8",
+        "matchup1": "B3",
+        "matchup2": "B4",
+        "team1": "Evanston Township High School",
+        "team2": "Elmhurst Evolution",
+        "field": 4
+    },
+    {
+        "gameid": "B9",
+        "matchup1": "B2",
+        "matchup2": "B3",
+        "team1": "Neuqua Valley High School",
+        "team2": "Evanston Township High School",
+        "field": 3
+    },
+    {
+        "gameid": "B10",
+        "matchup1": "B4",
+        "matchup2": "B5",
+        "team1": "Elmhurst Evolution",
+        "team2": "Lane Tech",
+        "field": 4
+    },
+    {
+        "gameid": "C1",
+        "matchup1": "C1",
+        "matchup2": "C5",
+        "team1": "Naperville Central High School",
+        "team2": "New Trier",
+        "field": 5
+    },
+    {
+        "gameid": "C2",
+        "matchup1": "C2",
+        "matchup2": "C4",
+        "team1": "Plainfield North",
+        "team2": "Metea Valley High School",
+        "field": 6
+    },
+    {
+        "gameid": "C3",
+        "matchup1": "C1",
+        "matchup2": "C4",
+        "team1": "Naperville Central High School",
+        "team2": "Metea Valley High School",
+        "field": 5
+    },
+    {
+        "gameid": "C4",
+        "matchup1": "C3",
+        "matchup2": "C5",
+        "team1": "St. Charles North High School",
+        "team2": "New Trier",
+        "field": 6
+    },
+    {
+        "gameid": "C5",
+        "matchup1": "C1",
+        "matchup2": "C3",
+        "team1": "Naperville Central High School",
+        "team2": "St. Charles North High School",
+        "field": 5
+    },
+    {
+        "gameid": "C6",
+        "matchup1": "C2",
+        "matchup2": "C5",
+        "team1": "Plainfield North",
+        "team2": "New Trier",
+        "field": 6
+    },
+    {
+        "gameid": "C7",
+        "matchup1": "C1",
+        "matchup2": "C2",
+        "team1": "Naperville Central High School",
+        "team2": "Plainfield North",
+        "field": 5
+    },
+    {
+        "gameid": "C8",
+        "matchup1": "C3",
+        "matchup2": "C4",
+        "team1": "St. Charles North High School",
+        "team2": "Metea Valley High School",
+        "field": 6
+    },
+    {
+        "gameid": "C9",
+        "matchup1": "C2",
+        "matchup2": "C3",
+        "team1": "Plainfield North",
+        "team2": "St. Charles North High School",
+        "field": 5
+    },
+    {
+        "gameid": "C10",
+        "matchup1": "C4",
+        "matchup2": "C5",
+        "team1": "Metea Valley High School",
+        "team2": "New Trier",
+        "field": 6
+    },
+    {
+        "gameid": "D1",
+        "matchup1": "D1",
+        "matchup2": "D5",
+        "team1": "Fox Valley Fusion ",
+        "team2": "Lincoln-Way East",
+        "field": 7
+    },
+    {
+        "gameid": "D2",
+        "matchup1": "D2",
+        "matchup2": "D4",
+        "team1": "Oak Park and River Forest High School",
+        "team2": "Naperville North",
+        "field": 8
+    },
+    {
+        "gameid": "D3",
+        "matchup1": "D1",
+        "matchup2": "D4",
+        "team1": "Fox Valley Fusion ",
+        "team2": "Naperville North",
+        "field": 7
+    },
+    {
+        "gameid": "D4",
+        "matchup1": "D3",
+        "matchup2": "D5",
+        "team1": "Edwardsville High School ",
+        "team2": "Lincoln-Way East",
+        "field": 8
+    },
+    {
+        "gameid": "D5",
+        "matchup1": "D1",
+        "matchup2": "D3",
+        "team1": "Fox Valley Fusion ",
+        "team2": "Edwardsville High School ",
+        "field": 7
+    },
+    {
+        "gameid": "D6",
+        "matchup1": "D2",
+        "matchup2": "D5",
+        "team1": "Oak Park and River Forest High School",
+        "team2": "Lincoln-Way East",
+        "field": 8
+    },
+    {
+        "gameid": "D7",
+        "matchup1": "D1",
+        "matchup2": "D2",
+        "team1": "Fox Valley Fusion ",
+        "team2": "Oak Park and River Forest High School",
+        "field": 7
+    },
+    {
+        "gameid": "D8",
+        "matchup1": "D3",
+        "matchup2": "D4",
+        "team1": "Edwardsville High School ",
+        "team2": "Naperville North",
+        "field": 8
+    },
+    {
+        "gameid": "D9",
+        "matchup1": "D2",
+        "matchup2": "D3",
+        "team1": "Oak Park and River Forest High School",
+        "team2": "Edwardsville High School ",
+        "field": 7
+    },
+    {
+        "gameid": "D10",
+        "matchup1": "D4",
+        "matchup2": "D5",
+        "team1": "Naperville North",
+        "team2": "Lincoln-Way East",
+        "field": 8
+    }
+]

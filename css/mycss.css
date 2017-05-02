@@ -1,0 +1,25 @@
+body {
+    background-color: #EFEFEF;
+}
+
+.demo-layout-transparent {
+  background: url('https://getmdl.io/assets/demos/transparent.jpg') center ;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.screen{
+    display: none;
+}
+
+.page-content {
+    padding: 20px;
+}
+
+.center{
+    text-align: center;
+    margin: auto auto;
+}

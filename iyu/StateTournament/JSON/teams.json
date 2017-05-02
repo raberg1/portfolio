@@ -1,0 +1,202 @@
+[
+    {
+        "teamid": 1,
+        "name": "Fox Valley Fusion ",
+        "rank": 4,
+        "division": "High School Open A",
+        "pool": "D",
+        "poolplacement": "D1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 2,
+        "name": "Noble Pritzker College Prep",
+        "rank": 12,
+        "division": "High School Open A",
+        "pool": "A",
+        "poolplacement": "A3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 3,
+        "name": "St. Charles North High School",
+        "rank": 10,
+        "division": "High School Open A",
+        "pool": "C",
+        "poolplacement": "C3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 4,
+        "name": "Neuqua Valley High School",
+        "rank": 1,
+        "division": "High School Open A",
+        "pool": "A",
+        "poolplacement": "A1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 5,
+        "name": "Neuqua Valley High School B",
+        "rank": 7,
+        "division": "High School Open A",
+        "pool": "B",
+        "poolplacement": "B2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 6,
+        "name": "Highland Park High School",
+        "rank": 17,
+        "division": "High School Open A",
+        "pool": "A",
+        "poolplacement": "A5",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 7,
+        "name": "Evanston Township High School",
+        "rank": 11,
+        "division": "High School Open A",
+        "pool": "B",
+        "poolplacement": "B3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 8,
+        "name": "St. Charles East High School",
+        "rank": 13,
+        "division": "High School Open A",
+        "pool": "A",
+        "poolplacement": "A4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 9,
+        "name": "Geneva High School",
+        "rank": 2,
+        "division": "High School Open A",
+        "pool": "B",
+        "poolplacement": "B1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 10,
+        "name": "Edwardsville High School ",
+        "rank": 9,
+        "division": "High School Open A",
+        "pool": "D",
+        "poolplacement": "D3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 11,
+        "name": "Naperville Central High School",
+        "rank": 3,
+        "division": "High School Open A",
+        "pool": "C",
+        "poolplacement": "C1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 12,
+        "name": "Oak Park and River Forest High School",
+        "rank": 5,
+        "division": "High School Open A",
+        "pool": "D",
+        "poolplacement": "D2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 13,
+        "name": "New Trier",
+        "rank": 19,
+        "division": "High School Open A",
+        "pool": "C",
+        "poolplacement": "C5",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 14,
+        "name": "Intrinsic Schools",
+        "rank": 8,
+        "division": "High School Open A",
+        "pool": "A",
+        "poolplacement": "A2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 15,
+        "name": "Lane Tech",
+        "rank": 18,
+        "division": "High School Open A",
+        "pool": "B",
+        "poolplacement": "B5",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 16,
+        "name": "Naperville North",
+        "rank": 16,
+        "division": "High School Open A",
+        "pool": "D",
+        "poolplacement": "D4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 17,
+        "name": "Metea Valley High School",
+        "rank": 15,
+        "division": "High School Open A",
+        "pool": "C",
+        "poolplacement": "C4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 18,
+        "name": "Plainfield North",
+        "rank": 6,
+        "division": "High School Open A",
+        "pool": "C",
+        "poolplacement": "C2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 19,
+        "name": "Elmhurst Evolution",
+        "rank": 14,
+        "division": "High School Open A",
+        "pool": "B",
+        "poolplacement": "B4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 20,
+        "name": "Lincoln-Way East",
+        "rank": 20,
+        "division": "High School Open A",
+        "pool": "D",
+        "poolplacement": "D5",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    }
+]
