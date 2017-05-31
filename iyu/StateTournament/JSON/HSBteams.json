@@ -1,0 +1,142 @@
+[
+    {
+        "teamid": 1,
+        "name": "Reavis High School",
+        "rank": 2,
+        "division": "High School Open B",
+        "pool": "B",
+        "poolplacement": "B1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 2,
+        "name": "Fox Valley Fusion B",
+        "rank": 1,
+        "division": "High School Open B",
+        "pool": "A",
+        "poolplacement": "A1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 3,
+        "name": "Latin School of Chicago",
+        "rank": 3,
+        "division": "High School Open B",
+        "pool": "C",
+        "poolplacement": "C1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 4,
+        "name": "St. Charles North High School",
+        "rank": 10,
+        "division": "High School Open B",
+        "pool": "C",
+        "poolplacement": "C3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 5,
+        "name": "Neuqua Valley Bravo",
+        "rank": 5,
+        "division": "High School Open B",
+        "pool": "D",
+        "poolplacement": "D2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 6,
+        "name": "Neuqua Valley Blue",
+        "rank": 6,
+        "division": "High School Open B",
+        "pool": "C",
+        "poolplacement": "C2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 7,
+        "name": "Neuqua Valley Gold",
+        "rank": 8,
+        "division": "High School Open B",
+        "pool": "A",
+        "poolplacement": "A2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 8,
+        "name": "Geneva High School JV",
+        "rank": 9,
+        "division": "High School Open B",
+        "pool": "D",
+        "poolplacement": "D3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 9,
+        "name": "Geneva High School FS",
+        "rank": 13,
+        "division": "High School Open B",
+        "pool": "A",
+        "poolplacement": "A4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 10,
+        "name": "Downers Grove South",
+        "rank": 4,
+        "division": "High School Open B",
+        "pool": "D",
+        "poolplacement": "D1",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 11,
+        "name": "Oak Park and River Forest High School",
+        "rank": 7,
+        "division": "High School Open B",
+        "pool": "B",
+        "poolplacement": "B2",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 12,
+        "name": "Intrinsic Schools",
+        "rank": 12,
+        "division": "High School Open B",
+        "pool": "A",
+        "poolplacement": "A3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 13,
+        "name": "Metea Valley High School",
+        "rank": 11,
+        "division": "High School Open B",
+        "pool": "B",
+        "poolplacement": "B3",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    },
+    {
+        "teamid": 14,
+        "name": "Metea Valley High School",
+        "rank": 14,
+        "division": "High School Open B",
+        "pool": "B",
+        "poolplacement": "B4",
+        "poolplaywins": 0,
+        "poolplaylosses": 0
+    }
+]

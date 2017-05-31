@@ -23,25 +23,32 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a id="" class="scheduleLink mdl-navigation__link" href="#">Schedule</a>
-            <a id="" class="webDevLink mdl-navigation__link" href="#">Web Dev</a>
-            <a id="" class="ecsLink mdl-navigation__link" href="#">ECS</a>
-            <a id="" class="aboutLink mdl-navigation__link" href="#">About</a>
+            <a id="schedule" class="internalLink mdl-navigation__link" href="#">Schedule</a>
+            <!--<a id="webDev" class="internalLink mdl-navigation__link" href="#">Web Dev</a>-->
+            <a id="apcsa" class="internalLink mdl-navigation__link" href="#">AP CS A</a>
+            <a id="ecs" class="internalLink mdl-navigation__link" href="#">ECS</a>
+            <a id="programming1" class="internalLink mdl-navigation__link" href="#">Programming 1</a>
+            <a id="about" class="internalLink mdl-navigation__link" href="#">About</a>
           </nav>
         </div>
       </header>
+      
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Berg</span>
         <nav class="mdl-navigation">
-          <a id="" class="scheduleLink mdl-navigation__link drawer" href="#">Schedule</a>
-          <a id="" class="webDevLink mdl-navigation__link drawer" href="#">Web Dev</a>
-          <a id="" class="ecsLink mdl-navigation__link drawer" href="#">ECS</a>
-          <a id="" class="aboutLink mdl-navigation__link drawer" href="#">About</a>
+          <a id="schedule" class="internalLink mdl-navigation__link drawer" href="#">Schedule</a>
+          <!--<a id="webDev" class="internalLink mdl-navigation__link drawer" href="#">Web Dev</a> -->
+          <a id="apcsa" class="internalLink mdl-navigation__link drawer" href="#">AP CS A</a>
+            <a id="ecs" class="internalLink mdl-navigation__link drawer" href="#">ECS</a>
+            <a id="programming1" class="internalLink mdl-navigation__link" href="#">Programming 1</a>
+          <a id="about" class="internalLink mdl-navigation__link drawer" href="#">About</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
         <div class="page-content">
-            <div id="schedule" class="screen page-content">
+            
+            <!-- Schedule Page -->
+            <div id="scheduleContent" class="screen page-content">
                 <h2 class="center">Schedule</h2><hr>
                 <table class="center mdl-data-table mdl-shadow--2dp">
                   <thead>
@@ -53,31 +60,31 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="ecsLink">
-                      <td class="mdl-data-table__cell--non-numeric">1</td>
-                      <td>Exploring Computer Science</td>
-                      <td>235</td>
-                      <td>ECS</td>
-                    </tr>
-                    <tr class="webDevLink">
-                      <td class="mdl-data-table__cell--non-numeric">3</td>
-                      <td>Web Development</td>
+                    <tr class="internalLink" id="programming1">
+                      <td class="mdl-data-table__cell--non-numeric">2</td>
+                      <td>Programming 1</td>
                       <td>124</td>
-                      <td>Web Dev</td>
+                      <td>CP1</td>
                     </tr>
-                    <tr class="ecsLink">
+                    <tr class="internalLink" id="apcsa">
+                      <td class="mdl-data-table__cell--non-numeric">4</td>
+                      <td>AP Computer Science A</td>
+                      <td>124</td>
+                      <td>AP CS A</td>
+                    </tr>
+                    <tr class="internalLink" id="programming1">
                       <td class="mdl-data-table__cell--non-numeric">5</td>
+                      <td>Programming 1</td>
+                      <td>124</td>
+                      <td>CP1</td>
+                    </tr>
+                    <tr class="internalLink" id="ecs">
+                      <td class="mdl-data-table__cell--non-numeric">7</td>
                       <td>Exploring Computer Science</td>
                       <td>230</td>
                       <td>ECS</td>
                     </tr>
-                    <tr class="ecsLink">
-                      <td class="mdl-data-table__cell--non-numeric">6</td>
-                      <td>Exploring Computer Science</td>
-                      <td>230</td>
-                      <td>ECS</td>
-                    </tr>
-                    <tr class="ecsLink">
+                    <tr class="internalLink" id="ecs">
                       <td class="mdl-data-table__cell--non-numeric">8</td>
                       <td>Exploring Computer Science</td>
                       <td>230</td>
@@ -89,7 +96,9 @@
                 <h3 class="center">Contact</h3>
                 <p class="center">In order to contact Mr. Berg, please email him at: <a href="mailto:rberg@cps.edu">rberg@cps.edu</a></p>
             </div>
-            <div id="webDev" class="screen page-content">
+            
+            <!-- Web Development Page -->
+            <div id="webDevContent" class="screen page-content">
                 <h2 class="center">Web Dev</h2><hr>
                 <h6><strong>Description:</strong></h6>
                 <p>Web Development One is designed to introduce students to the programming and design skills needed to create modern interactive "Web 2.0" websites and applications. Within the context of web development, students will develop their algorithmic problem-solving skills, explore Internet communication protocols, explore elements of human computer interaction topics, and data collection and manipulation.</p>
@@ -178,7 +187,9 @@
                   </li>
                 </ul>
             </div>
-            <div id="ecs" class="screen page-content">
+            
+            <!-- Exploring Computer Science Page -->
+            <div id="ecsContent" class="screen page-content">
                 <h2 class="center">ECS</h2><hr>
                 <p>
                     <h6><strong>Description:</strong></h6>
@@ -208,10 +219,29 @@
                   </li>
                 </ul>
             </div>
-            <div id="about" class="screen page-content">
+            
+            <!-- AP Computer Science A Page -->
+            <div id="apcsaContent" class="screen page-content">
+              <h2 class="center">AP Computer Science A</h2><hr>
+                
+                    <h6><strong>Description:</strong></h6>
+                    <p>Advanced Placement Computer Science is designed to introduce students to object-oriented programming methodology with a concentration on problem solving and algorithm development. It is meant to be the equivalent of a first-semester college-level course in Computer Science. It also includes the study of data structures, design, and abstraction.</p>
+                
+            </div>
+            
+            <!-- Programming 1 Page -->
+            <div id="programming1Content" class="screen page-content">
+              <h2 class="center">Computer Programming 1</h2>
+              <h6><strong>Description:</strong></h6>
+              <p>In partnership with the University of Illinois at Chicago, Computer Programming is a dual enrollment college bridge course. That means when you enroll in this course, you will also be enrolled in CS 111 at UIC. Receiving a passing grade and passing the final will grant you credit towards graduation, from Lane, and course credit at UIC. CS 111 is a course designed for students interested in programming but may not be interested in pursuing Computer Science as a major. We use the block-based development environment, Snap!, and we use Java to teach fundamental programming and problem-solving skills. </p>
+            </div>
+            
+            <!-- About Mr. Berg Page -->
+            <div id="aboutContent" class="screen page-content">
                 <h2 class="center">About</h2><hr>
                 <p>For the past ten years I have been teaching at Plainfield North High School teaching Mathematics and Computer Science.  I am excited to start my first year at Lane Tech with a great group of colleagues and at a school with so much tradition.  My hobbies include Ultimate Frisbee, being a die hard Cubs fan, and hanging out with my five month old puppy.  I would be happy to discuss Computer Science, or any of my hobbies with you throughout the year.</p>
             </div>
+        
         </div>
       </main>
     </div>
@@ -220,8 +250,16 @@
     
     <script>
         $(function(){
-           $("#schedule").show(); 
+           $("#scheduleContent").show(); 
            
+           $('.internalLink').click(function(){
+                $(".screen").hide();
+                
+                $("#" + $(this).attr("id") + "Content").show();
+                
+            })
+           
+           /*
            $(".scheduleLink").on("click",function(){
                console.log("schedule");
              $(".screen").hide();
@@ -245,6 +283,7 @@
              $(".screen").hide();
              $("#about").show();
            })
+           */
            
            $('.drawer').click(function(){
                             

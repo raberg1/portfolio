@@ -110,31 +110,31 @@
             <div id="scheduleContent" class="screen">
                 <h3>Schedule</h3>
                 <hr>
-                <div class="pool" id="hsOpenAPools">
+                <div class="pool" id="HSA">
                     <h4 class="center">High School Open A</h4>
                     <hr>
-                    <div class="poolDisplay" id="hsOpenAPoolsData"></div>
+                    <div class="poolDisplay" id="HSAData"></div>
                    
                 </div>
-                <div class="pool" id="hsOpenBPools">
+                <div class="pool" id="HSB">
                     <h4 class="center">High School Open B</h4>
                     <hr>
-                     <div class="poolDisplay" id="hsOpenBPoolsData"></div>
+                     <div class="poolDisplay" id="HSBData"></div>
                 </div>
-                <div class="pool" id="msOpenAPools">
+                <div class="pool" id="MSA">
                     <h4 class="center">Middle School Open A</h4>
                     <hr>
-                    <div class="poolDisplay" id="msOpenAPoolsData"></div> 
+                    <div class="poolDisplay" id="MSAData"></div> 
                 </div>
-                <div class="pool" id="msOpenBPools">
+                <div class="pool" id="MSB">
                     <h4 class="center">Middle School Open B</h4>
                     <hr>
-                    <div class="poolDisplay" id="msOpenBPoolsData"></div> 
+                    <div class="poolDisplay" id="MSBData"></div> 
                 </div>
-                <div class="pool" id="hsGirlsPools">
+                <div class="pool" id="HSG">
                     <h4 class="center">High School Girls</h4>
                     <hr>
-                    <div class="poolDisplay" id="hsGirlsPoolsData"></div> 
+                    <div class="poolDisplay" id="HSGData"></div> 
                 </div>
             </div>
             
@@ -195,14 +195,32 @@
           $(".pool").on("click", function(){
             $(".poolDisplay").hide();
             var poolName = $(this).attr("id");
-            
-            displayPool(poolName)
+            console.log(poolName);
+            displayPool(poolName);
             $("#"+ poolName + "Data").show();
           })
         })
         
         function displayPool(name){
-            for(var pool = 1; pool <= 4; pool++){
+          var teams, numPools, poolPlayGames, teamsPerPool;
+          if(name == "HSA"){
+            teams = 20;
+            numPools = 4;
+            poolPlayGames = 5;
+            teamsPerPool = 5;
+          } else if(name == "HSB"){
+            teams = 14;
+            numPools = 4;
+            poolPlayGames = 3;
+            teamsPerPool = 4;
+          } else {
+            teams = 5;
+            numPools = 1;
+            poolPlayGames = 5;
+            teamsPerPool = 5;
+          }
+          //console.log(Math.trunc(teams / 4));
+            for(var pool = 1; pool <= numPools; pool++){
                 var count = 1;
                 var letter = "";
                 if(pool==1){ letter = "A"}
@@ -210,7 +228,7 @@
                 else if(pool==3){letter="C"}
                 else{letter="D"}
                 var tab = '<table border="1" class="mdl-data-table mdl-js-data-table"><thead><tr><th class="center mdl-data-table__cell--non-numeric" colspan="12">Pool ' + letter + '</th></tr></thead><tbody>';
-                for(var i=1;i<=5;i++){
+                for(var i=1;i<=teamsPerPool;i++){
                     tab += '<tr><td colspan = "1" class="mdl-data-table__cell--non-numeric">' + letter + i +'</td><td id="' + letter + i + '" class="mdl-data-table__cell--non-numeric" colspan="8">Team '+ letter + i + '</td><td class="mdl-data-table__cell--non-numeric" colspan="2" id="' + letter + i + 'Record">Record</td><td class="mdl-data-table__cell--non-numeric">Rank</td></tr>'
                 }
                 tab += '<tr><td colspan="2" class="mdl-data-table__cell--non-numeric">SAT</td><td class="mdl-data-table__cell--non-numeric">FLD</td><td colspan="2" class="mdl-data-table__cell--non-numeric">GAME</td><td colspan="2" class="mdl-data-table__cell--non-numeric">SCORE</td><td class="mdl-data-table__cell--non-numeric">FLD</td><td colspan="2" class="mdl-data-table__cell--non-numeric">GAME</td><td colspan="2" class="mdl-data-table__cell--non-numeric">SCORE</td></tr>'
@@ -219,7 +237,7 @@
                 time.setHours(9,0,0,0);
                 
                 
-                for(var i=1; i<=5; i++){
+                for(var i=1; i<=poolPlayGames; i++){
                     
                     tab += '<tr><td colspan="2" class="mdl-data-table__cell--non-numeric">';
                     
@@ -249,16 +267,16 @@
                 $("#" + name + "Data").append(tab);
             }
             
-            inputData();
+            inputData(name);
         }  
         
     </script>
     <!-- Include Dexie -->
     <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
     <script>
-        function inputData(){
+        function inputData(division){
             
-            $.getJSON("JSON/teams.json",function(data){
+            $.getJSON("JSON/" + division + "teams.json",function(data){
                 console.log(data);
                 $.each(data, function(i,v){
                     $("#" + v.poolplacement).html(v.name);
@@ -266,7 +284,7 @@
                 })
             })
             
-            $.getJSON("JSON/games.json",function(data){
+            $.getJSON("JSON/" + division + "games.json",function(data){
                 console.log(data);
                 $.each(data, function(i,v){
                     $("#" + v.gameid + "game").html(v.matchup1 + " v " + v.matchup2);

@@ -1,0 +1,194 @@
+[
+    {
+        "gameid": "A1",
+        "matchup1": "A1",
+        "matchup2": "A3",
+        "team1": "Fox Valley Fusion B",
+        "team2": "Intrinsic Schools",
+        "field": 9
+    },
+    {
+        "gameid": "A2",
+        "matchup1": "A2",
+        "matchup2": "A4",
+        "team1": "Neuqua Valley Gold",
+        "team2": "Geneva High School FS",
+        "field": 10
+    },
+    {
+        "gameid": "A3",
+        "matchup1": "A1",
+        "matchup2": "A4",
+        "team1": "Fox Valley Fusion B",
+        "team2": "Geneva High School FS",
+        "field": 9
+    },
+    {
+        "gameid": "A4",
+        "matchup1": "A2",
+        "matchup2": "A3",
+        "team1": "Neuqua Valley Gold",
+        "team2": "Intrinsic Schools",
+        "field": 10
+    },
+    {
+        "gameid": "A5",
+        "matchup1": "A1",
+        "matchup2": "A2",
+        "team1": "Fox Valley Fusion B",
+        "team2": "Neuqua Valley Gold",
+        "field": 9
+    },
+    {
+        "gameid": "A6",
+        "matchup1": "A3",
+        "matchup2": "A4",
+        "team1": "Intrinsic Schools",
+        "team2": "Geneva High School FS",
+        "field": 10
+    },
+    {
+        "gameid": "B1",
+        "matchup1": "B1",
+        "matchup2": "B3",
+        "team1": "Reavis High School",
+        "team2": "Metea Valley High School",
+        "field": 11
+    },
+    {
+        "gameid": "B2",
+        "matchup1": "B2",
+        "matchup2": "B4",
+        "team1": "Oak Park and River Forest High School",
+        "team2": "Metea Valley High School",
+        "field": 12
+    },
+    {
+        "gameid": "B3",
+        "matchup1": "B1",
+        "matchup2": "B4",
+        "team1": "Reavis High School",
+        "team2": "Metea Valley High School",
+        "field": 11
+    },
+    {
+        "gameid": "B4",
+        "matchup1": "B2",
+        "matchup2": "B3",
+        "team1": "Oak Park and River Forest High School",
+        "team2": "Metea Valley High School",
+        "field": 12
+    },
+    {
+        "gameid": "B5",
+        "matchup1": "B1",
+        "matchup2": "B2",
+        "team1": "Reavis High School",
+        "team2": "Oak Park and River Forest High School",
+        "field": 11
+    },
+    {
+        "gameid": "B6",
+        "matchup1": "B3",
+        "matchup2": "B4",
+        "team1": "Metea Valley High School",
+        "team2": "Metea Valley High School",
+        "field": 12
+    },
+    {
+        "gameid": "C1",
+        "matchup1": "C1",
+        "matchup2": "C3",
+        "team1": "Latin School of Chicago",
+        "team2": "St. Charles North High School",
+        "field": 13
+    },
+    {
+        "gameid": "C2",
+        "matchup1": "C2",
+        "matchup2": "D2",
+        "team1": "Neuqua Valley Blue",
+        "team2": "Neuqua Valley Bravo",
+        "field": 14
+    },
+    {
+        "gameid": "C3",
+        "matchup1": "C1",
+        "matchup2": "D3",
+        "team1": "Latin School of Chicago",
+        "team2": "Geneva High School JV",
+        "field": 13
+    },
+    {
+        "gameid": "C4",
+        "matchup1": "C2",
+        "matchup2": "C3",
+        "team1": "Neuqua Valley Blue",
+        "team2": "St. Charles North High School",
+        "field": 14
+    },
+    {
+        "gameid": "C5",
+        "matchup1": "C1",
+        "matchup2": "C2",
+        "team1": "Latin School of Chicago",
+        "team2": "Neuqua Valley Blue",
+        "field": 13
+    },
+    {
+        "gameid": "C6",
+        "matchup1": "C3",
+        "matchup2": "D1",
+        "team1": "St. Charles North High School",
+        "team2": "Downers Grove South",
+        "field": 14
+    },
+    {
+        "gameid": "D1",
+        "matchup1": "D1",
+        "matchup2": "D3",
+        "team1": "Downers Grove South",
+        "team2": "Geneva High School JV",
+        "field": 15
+    },
+    {
+        "gameid": "D2",
+        "matchup1": "D2",
+        "matchup2": "D4",
+        "team1": "Neuqua Valley Bravo",
+        "team2": "#",
+        "field": 16
+    },
+    {
+        "gameid": "D1",
+        "matchup1": "D1",
+        "matchup2": "D4",
+        "team1": "Downers Grove South",
+        "team2": "#",
+        "field": 15
+    },
+    {
+        "gameid": "D2",
+        "matchup1": "D2",
+        "matchup2": "D3",
+        "team1": "Neuqua Valley Bravo",
+        "team2": "Geneva High School JV",
+        "field": 16
+    },
+    {
+        "gameid": "D1",
+        "matchup1": "D1",
+        "matchup2": "D2",
+        "team1": "Downers Grove South",
+        "team2": "Neuqua Valley Bravo",
+        "field": 15
+    },
+    {
+        "gameid": "D3",
+        "matchup1": "D3",
+        "matchup2": "D4",
+        "team1": "Geneva High School JV",
+        "team2": "#",
+        "field": 16
+    }
+]

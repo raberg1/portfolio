@@ -23,3 +23,8 @@ td {
 tr {
     text-align: center;
 }
+
+.hidden{
+    display: none;
+}
+
